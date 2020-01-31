@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "aghelvetica_bold";
+  src: url('/assets/fonts/aghelvetica_bold/Base/aghelvetica_bold.eot'); // IE9 Compat Modes
+  src: url('/assets/fonts/aghelvetica_bold/Base/aghelvetica_bold.eot?#iefix') format('embedded-opentype'), // IE6-IE8
+       url('/assets/fonts/aghelvetica_bold/Base/aghelvetica_bold.woff') format('woff'), // Pretty Modern Browsers
+       url('/assets/fonts/aghelvetica_bold/Base/aghelvetica_bold.ttf')  format('truetype'), // Safari, Android, iOS
+       url('/assets/fonts/aghelvetica_bold/Base/aghelvetica_bold.svg') format('svg'); // Legacy iOS
+}

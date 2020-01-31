@@ -1,0 +1,23 @@
+extends ../layout/main
+
+block variables
+  - var title = 'Webpack+pug';
+  - var description = 'Description for Webpug + Pug';
+  - var pageClass = 'index-page';
+
+block content
+  section
+    .container
+      +item('item title', 'item descr')
+      +item('item title', 'item description')
+      +item('item title', 'item description')
+  example-component
+    
+    
+block script
+  script(type='text/javascript').
+    const foo = true;
+    let bar = function() {};
+    if (foo) {
+      bar(1 + 5)
+      }
